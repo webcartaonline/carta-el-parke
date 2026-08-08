@@ -4,7 +4,7 @@
     "tipo": "Lounge Bar",
     "lema": "Cocina de barrio, sin prisa",
     "moneda": "EUR",
-    "actualizado": "2026-08-08T11:00:00Z"
+    "actualizado": "2026-08-08T15:50:38.645Z"
   },
   "grupos": [
     {
@@ -17,42 +17,62 @@
           "nombre": "Patatas bravas",
           "descripcion": "Patata confitada, salsa brava de la casa y alioli suave",
           "precio": 6.5,
-          "alergenos": ["huevos", "lacteos"]
+          "alergenos": [
+            "huevos",
+            "lacteos"
+          ]
         },
         {
           "id": "i-croquetas-jamon",
           "nombre": "Croquetas de jamón",
           "descripcion": "Seis unidades, bechamel cremosa y jamón curado 24 meses",
           "precio": 8.9,
-          "alergenos": ["gluten", "lacteos", "huevos"]
+          "alergenos": [
+            "gluten",
+            "lacteos",
+            "huevos"
+          ]
         },
         {
           "id": "i-boquerones",
           "nombre": "Boquerones en vinagre",
           "descripcion": "Marinados 48 horas con ajo y perejil, sobre pan de cristal",
           "precio": 7.2,
-          "alergenos": ["pescado", "gluten", "sulfitos"]
+          "alergenos": [
+            "pescado",
+            "gluten",
+            "sulfitos"
+          ]
         },
         {
           "id": "i-hummus-remolacha",
           "nombre": "Hummus de remolacha",
           "descripcion": "Con tahini, aceite de oliva virgen extra y crudités de temporada",
           "precio": 7.5,
-          "alergenos": ["sesamo"]
+          "alergenos": [
+            "sesamo"
+          ]
         },
         {
           "id": "i-gambas-ajillo",
           "nombre": "Gambas al ajillo",
           "descripcion": "Con guindilla suave y un chorro de vino blanco",
           "precio": 11.5,
-          "alergenos": ["crustaceos", "sulfitos"]
+          "alergenos": [
+            "crustaceos",
+            "sulfitos"
+          ]
         },
         {
           "id": "i-tabla-quesos",
           "nombre": "Tabla de quesos",
           "descripcion": "Cinco quesos nacionales con membrillo, nueces y picos",
           "precio": 13.9,
-          "alergenos": ["lacteos", "frutos-secos", "gluten"]
+          "alergenos": [
+            "lacteos",
+            "frutos-secos",
+            "gluten"
+          ]
         }
       ]
     },
@@ -65,14 +85,19 @@
           "id": "i-arroz-senyoret",
           "nombre": "Arroz del senyoret",
           "descripcion": "Arroz seco con marisco pelado y fumet de roca. Mínimo dos personas, precio por persona",
-          "precio": 18.5,
-          "alergenos": ["crustaceos", "moluscos", "pescado", "sulfitos"]
+          "precio": 10.99,
+          "alergenos": [
+            "crustaceos",
+            "moluscos",
+            "pescado",
+            "sulfitos"
+          ]
         },
         {
           "id": "i-entrecot",
           "nombre": "Entrecot de vaca madurada",
           "descripcion": "300 g a la brasa, con patata panadera y pimientos de Padrón",
-          "precio": 22.0,
+          "precio": 22,
           "alergenos": []
         },
         {
@@ -80,28 +105,47 @@
           "nombre": "Bacalao confitado",
           "descripcion": "A baja temperatura sobre pisto de verduras y crema de ajo",
           "precio": 17.9,
-          "alergenos": ["pescado", "lacteos", "sulfitos"]
+          "alergenos": [
+            "pescado",
+            "lacteos",
+            "sulfitos"
+          ]
         },
         {
           "id": "i-burger-parke",
           "nombre": "Burger El Parke",
           "descripcion": "Vacuno 180 g, cheddar curado, cebolla caramelizada y salsa de la casa",
           "precio": 13.5,
-          "alergenos": ["gluten", "lacteos", "huevos", "mostaza", "sesamo"]
+          "alergenos": [
+            "gluten",
+            "lacteos",
+            "huevos",
+            "mostaza",
+            "sesamo"
+          ]
         },
         {
           "id": "i-risotto-setas",
           "nombre": "Risotto de setas",
           "descripcion": "Arroz carnaroli, setas de temporada y parmesano. Opción vegana bajo petición",
           "precio": 14.9,
-          "alergenos": ["lacteos", "apio", "sulfitos"]
+          "alergenos": [
+            "lacteos",
+            "apio",
+            "sulfitos"
+          ]
         },
         {
           "id": "i-poke-salmon",
           "nombre": "Poke de salmón",
           "descripcion": "Salmón marinado, arroz, edamame, aguacate y aliño de soja y sésamo",
-          "precio": 14.0,
-          "alergenos": ["pescado", "soja", "sesamo", "gluten"]
+          "precio": 14,
+          "alergenos": [
+            "pescado",
+            "soja",
+            "sesamo",
+            "gluten"
+          ]
         }
       ]
     },
@@ -114,7 +158,7 @@
           "id": "i-agua-mineral",
           "nombre": "Agua mineral 50 cl",
           "descripcion": "Natural o con gas",
-          "precio": 2.0,
+          "precio": 2,
           "alergenos": []
         },
         {
@@ -129,21 +173,27 @@
           "nombre": "Cerveza de barril",
           "descripcion": "Caña 25 cl o tercio de la casa",
           "precio": 2.8,
-          "alergenos": ["gluten"]
+          "alergenos": [
+            "gluten"
+          ]
         },
         {
           "id": "i-vermut",
           "nombre": "Vermut de la casa",
           "descripcion": "Rojo de grifo con hielo, naranja y aceituna",
           "precio": 3.9,
-          "alergenos": ["sulfitos"]
+          "alergenos": [
+            "sulfitos"
+          ]
         },
         {
           "id": "i-copa-tinto",
           "nombre": "Copa de tinto",
           "descripcion": "Rioja crianza o Ribera del Duero joven",
           "precio": 3.5,
-          "alergenos": ["sulfitos"]
+          "alergenos": [
+            "sulfitos"
+          ]
         },
         {
           "id": "i-zumo-natural",
@@ -157,7 +207,10 @@
           "nombre": "Horchata de chufa",
           "descripcion": "Artesanal, servida bien fría con fartons aparte",
           "precio": 3.4,
-          "alergenos": ["gluten", "frutos-secos"]
+          "alergenos": [
+            "gluten",
+            "frutos-secos"
+          ]
         }
       ]
     },
@@ -178,21 +231,28 @@
           "nombre": "Cortado",
           "descripcion": "Espresso con un toque de leche templada",
           "precio": 1.6,
-          "alergenos": ["lacteos"]
+          "alergenos": [
+            "lacteos"
+          ]
         },
         {
           "id": "i-cafe-leche",
           "nombre": "Café con leche",
           "descripcion": "Con leche entera, desnatada, de avena o de soja",
           "precio": 1.9,
-          "alergenos": ["lacteos", "soja"]
+          "alergenos": [
+            "lacteos",
+            "soja"
+          ]
         },
         {
           "id": "i-carajillo",
           "nombre": "Carajillo",
           "descripcion": "Con brandy, ron o whisky",
           "precio": 3.2,
-          "alergenos": ["sulfitos"]
+          "alergenos": [
+            "sulfitos"
+          ]
         },
         {
           "id": "i-infusiones",
@@ -213,34 +273,51 @@
           "nombre": "Tarta de queso",
           "descripcion": "Horneada al estilo vasco, cremosa por dentro",
           "precio": 5.9,
-          "alergenos": ["lacteos", "huevos", "gluten"]
+          "alergenos": [
+            "lacteos",
+            "huevos",
+            "gluten"
+          ]
         },
         {
           "id": "i-coulant",
           "nombre": "Coulant de chocolate",
           "descripcion": "Con corazón fundido y una bola de vainilla",
           "precio": 6.5,
-          "alergenos": ["lacteos", "huevos", "gluten", "soja"]
+          "alergenos": [
+            "lacteos",
+            "huevos",
+            "gluten",
+            "soja"
+          ]
         },
         {
           "id": "i-flan-casero",
           "nombre": "Flan de huevo casero",
           "descripcion": "Con caramelo tostado y nata montada",
           "precio": 4.5,
-          "alergenos": ["huevos", "lacteos"]
+          "alergenos": [
+            "huevos",
+            "lacteos"
+          ]
         },
         {
           "id": "i-tarta-zanahoria",
           "nombre": "Tarta de zanahoria",
           "descripcion": "Con frosting de queso crema y nuez pecana",
           "precio": 5.5,
-          "alergenos": ["gluten", "huevos", "lacteos", "frutos-secos"]
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "lacteos",
+            "frutos-secos"
+          ]
         },
         {
           "id": "i-fruta-temporada",
           "nombre": "Fruta de temporada",
           "descripcion": "Cortada al momento, sin azúcares añadidos",
-          "precio": 4.0,
+          "precio": 4,
           "alergenos": []
         }
       ]
@@ -255,14 +332,21 @@
           "nombre": "Vainilla de Madagascar",
           "descripcion": "Bola individual",
           "precio": 2.5,
-          "alergenos": ["lacteos", "huevos"]
+          "alergenos": [
+            "lacteos",
+            "huevos"
+          ]
         },
         {
           "id": "i-bola-turron",
           "nombre": "Turrón de Jijona",
           "descripcion": "Bola individual, con almendra marcona",
           "precio": 2.7,
-          "alergenos": ["lacteos", "frutos-secos", "huevos"]
+          "alergenos": [
+            "lacteos",
+            "frutos-secos",
+            "huevos"
+          ]
         },
         {
           "id": "i-sorbete-limon",
@@ -276,14 +360,23 @@
           "nombre": "Copa brownie",
           "descripcion": "Brownie templado, dos bolas de vainilla y salsa de chocolate",
           "precio": 6.9,
-          "alergenos": ["gluten", "lacteos", "huevos", "frutos-secos", "soja"]
+          "alergenos": [
+            "gluten",
+            "lacteos",
+            "huevos",
+            "frutos-secos",
+            "soja"
+          ]
         },
         {
           "id": "i-affogato",
           "nombre": "Affogato",
           "descripcion": "Bola de vainilla ahogada en espresso caliente",
           "precio": 4.2,
-          "alergenos": ["lacteos", "huevos"]
+          "alergenos": [
+            "lacteos",
+            "huevos"
+          ]
         }
       ]
     }

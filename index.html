@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta</title>
+  <meta name="description" content="Carta online actualizada al momento.">
+  <meta name="theme-color" content="#143561">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- Cabecera: identidad del local -->
+  <header class="portada">
+    <div class="portada__azulejo" aria-hidden="true"></div>
+    <div class="portada__texto">
+      <p class="portada__tipo" data-campo="tipo">·</p>
+      <h1 class="portada__nombre" data-campo="nombre">Cargando</h1>
+      <p class="portada__lema" data-campo="lema"></p>
+    </div>
+    <div class="portada__azulejo" aria-hidden="true"></div>
+  </header>
+
+  <!-- Navegación por grupos, pegada arriba al hacer scroll -->
+  <nav class="indice" id="indice" aria-label="Secciones de la carta">
+    <ul class="indice__lista" id="indiceLista"></ul>
+  </nav>
+
+  <main class="carta" id="carta">
+    <p class="estado" id="estado">Cargando la carta…</p>
+  </main>
+
+  <!-- Panel de alérgenos -->
+  <section class="alergenos" aria-labelledby="tituloAlergenos">
+    <h2 class="alergenos__titulo" id="tituloAlergenos">Alérgenos</h2>
+    <p class="alergenos__ayuda">
+      Marca los que quieras evitar y te avisamos en cada plato.
+      Consulta siempre al personal ante una alergia grave.
+    </p>
+    <ul class="alergenos__lista" id="leyenda"></ul>
+    <button class="alergenos__limpiar" id="limpiarFiltros" type="button" hidden>
+      Quitar todos los avisos
+    </button>
+  </section>
+
+  <footer class="pie">
+    <p class="pie__sello">Carta online</p>
+    <p class="pie__fecha">Precios actualizados el <span data-campo="actualizado">—</span></p>
+    <p class="pie__nota">IVA incluido. Los precios pueden variar sin previo aviso.</p>
+  </footer>
+
+  <script src="carta.js"></script>
+</body>
+</html>

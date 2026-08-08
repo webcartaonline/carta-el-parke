@@ -4,7 +4,7 @@
     "tipo": "Lounge Bar",
     "lema": "Cocina de barrio, sin prisa",
     "moneda": "EUR",
-    "actualizado": "2026-08-08T15:50:38.645Z"
+    "actualizado": "2026-08-08T16:07:13.082Z"
   },
   "grupos": [
     {
@@ -376,6 +376,62 @@
           "alergenos": [
             "lacteos",
             "huevos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-comida-rapida-4jr3",
+      "nombre": "Comida rápida",
+      "descripcion": "Extras: huevo, beacón o queso + 0,50 €",
+      "items": [
+        {
+          "id": "i-nuevo-3fjt",
+          "nombre": "Hamburguesa",
+          "descripcion": "Básica con lechuga, carne de cerdo y tomate",
+          "precio": 10,
+          "alergenos": [
+            "gluten",
+            "sesamo"
+          ]
+        },
+        {
+          "id": "i-nuevo-sv3y",
+          "nombre": "Hamburguesa EXTREME",
+          "descripcion": "Deliciosa carne de ternera con lechuga, tomate y pepinillos",
+          "precio": 18,
+          "alergenos": []
+        },
+        {
+          "id": "i-nuevo-jvz9",
+          "nombre": "Pizza",
+          "descripcion": "Échale lo que quieras, tu sabrás lo que haces jejeje",
+          "precio": 8.5,
+          "alergenos": []
+        }
+      ]
+    },
+    {
+      "id": "g-cervezas-7t04",
+      "nombre": "Cervezas",
+      "descripcion": "Tercios y quintos",
+      "items": [
+        {
+          "id": "i-nuevo-jrtr",
+          "nombre": "Aguila dorada",
+          "descripcion": "Tercio, sin alcohol por 2,20€",
+          "precio": 2,
+          "alergenos": [
+            "gluten"
+          ]
+        },
+        {
+          "id": "i-nuevo-h0ov",
+          "nombre": "Aguila dorada",
+          "descripcion": "Quinto, no hay sin alcohol",
+          "precio": 0,
+          "alergenos": [
+            "gluten"
           ]
         }
       ]

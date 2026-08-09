@@ -4,12 +4,12 @@
     "tipo": "Lounge Bar",
     "lema": "Cocina de barrio, sin prisa",
     "moneda": "EUR",
-    "actualizado": "2026-08-08T17:00:50.917Z"
+    "actualizado": "2026-08-09T10:23:47.178Z"
   },
   "grupos": [
     {
       "id": "g-para-picar",
-      "nombre": "HOLA CARACOLA",
+      "nombre": "Entrantes",
       "descripcion": "Para compartir en el centro de la mesa",
       "items": [
         {
